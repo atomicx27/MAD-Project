@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="background_color">#121212</color> <!-- Dark background (near black) -->
+    <color name="primary_text_color">#FFFFFF</color> <!-- White text for readability on dark background -->
+    <color name="secondary_text_color">#B3B3B3</color> <!-- Light gray for secondary text -->
+
+    <!-- Theme Colors -->
+    <color name="primary_color">#212121</color> <!-- Dark gray for primary color elements -->
+    <color name="colorAccent">#FFA500</color> <!-- Bright orange as accent color -->
+
+    <!-- Accent Colors (Orange Theme) -->
+    <color name="accent_color">#FFA500</color> <!-- Orange accent color to match colorAccent -->
+
+    <!-- Button Colors -->
+    <color name="button_background">#FFA500</color> <!-- Orange button background -->
+    <color name="button_text_color">#FFFFFF</color> <!-- White text on orange buttons -->
+
+    <!-- Header Colors -->
+    <color name="header_background">#1E1E1E</color> <!-- Slightly lighter black for header -->
+    <color name="header_text_color">#FFFFFF</color> <!-- White header text -->
+
+    <!-- Additional UI Colors -->
+    <color name="divider_color">#333333</color> <!-- Dark gray for dividers or separators -->
+    <color name="hint_text_color">#757575</color> <!-- Gray for hints or placeholders -->
+</resources>

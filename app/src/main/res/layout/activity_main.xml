@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+    <!-- Top Header -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@color/primary_color">
+
+        <TextView
+            android:id="@+id/headerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alarm Manager"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"/>
+    </RelativeLayout>
+
+    <!-- Description Text -->
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Alarm Manager!"
+        android:textSize="24sp"
+        android:textColor="@color/primary_text_color"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <!-- Spacer to push footer to the bottom -->
+
+    <!-- Footer with two buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_color"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:gravity="center_vertical">
+
+        <!-- Left Side: Show Alarms Button -->
+        <Button
+            android:id="@+id/btnShowAlarms"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="16dp"
+            android:text="Show"
+            android:textColor="@android:color/white"
+            android:gravity="center"/>
+
+        <!-- Right Side: Add Alarm Button -->
+        <Button
+            android:id="@+id/btnAddAlarm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="16dp"
+            android:text="+"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:gravity="center"/>
+    </LinearLayout>
+</LinearLayout>

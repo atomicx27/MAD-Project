@@ -1,0 +1,30 @@
+<!-- res/layout/activity_alarm_ring.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtAlarmRinging"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alarm is ringing!"
+        android:textSize="32sp"
+        android:textColor="@color/primary_text_color"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <Button
+        android:id="@+id/dismissButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dismiss Alarm"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:elevation="8dp" />
+
+</RelativeLayout>

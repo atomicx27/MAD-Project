@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+    <!-- Top Header with a "+" button -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@color/primary_color">
+
+        <TextView
+            android:id="@+id/headerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Alarms"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <!-- List of alarms -->
+    <ListView
+        android:id="@+id/listViewAlarms"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/black"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp"
+        android:padding="8dp"
+        android:clipToPadding="false"
+        android:elevation="4dp" />
+
+</LinearLayout>

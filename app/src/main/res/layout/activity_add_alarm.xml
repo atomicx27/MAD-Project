@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"> <!-- Black background -->
+
+    <!-- Top Header with Title -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@color/primary_color">
+
+        <TextView
+            android:id="@+id/headerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:text="Set Alarm"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-medium" />
+    </RelativeLayout>
+
+    <!-- EditText for Alarm Time -->
+    <EditText
+        android:id="@+id/edtAlarmTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alarm Time"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
+    android:layout_margin="16dp" /> <!-- Use main styles -->
+
+    <!-- Button for Setting Time -->
+    <Button
+        android:id="@+id/btnSetTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Time"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_margin="16dp" /> <!-- Use main styles -->
+
+    <!-- EditText for Location -->
+    <EditText
+        android:id="@+id/edtLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
+    android:layout_margin="16dp" /> <!-- Use main styles -->
+
+    <!-- Map Fragment -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Save Button in Footer -->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Alarm"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_margin="16dp"/> <!-- Use main styles -->
+</LinearLayout>
