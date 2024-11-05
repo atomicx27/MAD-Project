@@ -30,7 +30,7 @@ The Location Alarm Clock is designed for users who need timely reminders upon re
 
 ## Technical Requirements
 
-- **Platform**: Android/iOS/Web (based on your app’s platform).
+- **Platform**: Android.
 - **Dependencies**: Any required modules or APIs, such as Google Maps API, for location tracking and directions.
 
 ## Future Enhancements
