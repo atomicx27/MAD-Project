@@ -39,3 +39,12 @@ The Location Alarm Clock is designed for users who need timely reminders upon re
 - **Snooze Functionality**: Allow users to snooze location-based alarms.
 - **Battery Optimization**: Minimize location polling to save battery life.
 
+
+![image](https://github.com/user-attachments/assets/be0eebc5-54b6-4801-a899-b116e75ca221)
+![image](https://github.com/user-attachments/assets/b47e3dca-de54-45a8-87bb-b27c0ca8a1e9)
+![image](https://github.com/user-attachments/assets/7d4ab5f5-26f4-442b-acf7-9ab929e5661b)
+![image](https://github.com/user-attachments/assets/e2549174-f77d-49fa-96b1-6bc73eaba0c9)
+![image](https://github.com/user-attachments/assets/70f15d6c-255f-4ce4-b111-f31ff359111d)
+![image](https://github.com/user-attachments/assets/0490b65b-1433-4724-9f47-387211d5cab8)
+![image](https://github.com/user-attachments/assets/56e29ee6-8d30-4a22-a89d-93edc96066c0)
+
